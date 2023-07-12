@@ -1,0 +1,86 @@
+.hidden{
+  display: none;
+}
+
+.post {
+  position: fixed;
+  display: block;
+  top:0;
+  background-color: rgb(240, 240, 240);
+  width: 100%;
+}
+
+#wrapBox {
+  margin: 5px;
+  margin-top: 100px;
+  border-radius: 3px;
+  background-color: white;
+ 
+}
+.box{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  background-color: rgb(240, 240, 240);
+  margin: 15px;
+  padding: 30px;
+}
+
+
+.Edit{
+  position: absolute;
+  margin-left: 1050px;
+  margin-top: -35px;
+  background-color: rgb(240, 240, 240);
+  border: solid 1px rgb(240, 240, 240);
+  padding: 2px;
+  width: 40px;
+  height: 21px;
+}
+.Delete{
+  position: absolute;
+  margin-top: -35px;
+  margin-left: 1090px;
+  background-color: rgb(240, 240, 240);
+  border: solid 1px rgb(240, 240, 240);
+}
+.EditArea{
+  margin-left: 110px;
+  width: 900px; 
+}
+.submit{
+  margin-left:auto;
+  margin-top: -25px;
+  background-color: rgb(240, 240, 240);
+  border: solid 1px rgb(240, 240, 240);
+  width: 100px;
+}
+.container2{
+  position: fixed;
+  flex-direction: column;
+  display: block;
+  bottom: 0;
+  background-color: rgb(240, 240, 240);
+  width: 100%;
+  height: 100px;
+}
+#namespot{
+  display: flex;
+  margin-top: 40px;
+}
+#Comment{
+  display: flex;
+  margin-left: 160px;
+  margin-top: -20px; 
+  width: 900px;
+}
+#commentSubmit {
+  display: flex;
+    margin-left: 1090px;
+    margin-top: -20px; 
+    background-color:  rgb(240, 240, 240);
+    border: solid 1px rgb(240, 240, 240);
+    width: 90px; 
+    height: 20px;
+}
